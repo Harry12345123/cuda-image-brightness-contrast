@@ -43,3 +43,29 @@ Harry12345123
 ## More
 
 This project is part of my CUDA beginner project matrix for developers learning practical GPU programming.
+
+## Requirements
+
+Before building this project, make sure your system has:
+
+- CUDA Toolkit
+- OpenCV
+- CMake 3.18 or later
+- C++17 compatible compiler
+
+## Build
+
+Use the following commands to compile the project:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make -j
+
+## Run
+
+After building, run the program with:
+
+./cuda_image_brightness_contrast input.jpg
+
