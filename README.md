@@ -69,3 +69,8 @@ After building, run the program with:
 
 ./cuda_image_brightness_contrast input.jpg
 
+Notes
+Make sure input.jpg exists in the project root directory.
+You can replace the input file with your own image.
+The executable name depends on your CMake project configuration.
+
